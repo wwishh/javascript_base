@@ -1,0 +1,18 @@
+<html>
+  <body>
+      <script>
+               var x= "20";
+                var x2= "x*2";
+               var x4= "x*4";
+               var x8= "x*8";
+               var x10= "x*10";
+        document.write("x=" + 20 + "<br>");
+        document.write("2x=" + 40 + "<br>");
+        document.write("4x=" + 80 + "<br>");
+        document.write("8x=" + 160 + "<br>");
+        document.write("10x=" + 200 + "<br>"); 
+ 
+
+</script>
+   </body>
+</html>

@@ -1,0 +1,71 @@
+<html>
+	<body>
+	<script>
+	var score=[100, 40, 70, 80, 90, 85, 48, 60, 83, 96];
+	var a=0,sum=0, avg=0, avg2=0, max=0, mini=score[0];
+	for(i=0;i<10;i++)
+	{
+		sum=sum+score[i];
+		
+	}
+	avg=sum/10;
+	sum=0
+	for(i=0;i<10;i++)
+	{
+		sum=sum+((score[i]-avg)*(score[i]-avg));
+	}
+
+
+	avg2=Math.sqrt(sum/10);
+			
+	for(i=0;i<9;i++)
+	{
+		if(score[i] >= 90)
+		{
+			document.write("90점 이상인 점수=" + score[i] + "<br>");
+			a++
+		}
+	}
+	document.write("90점 이상인 점수의 개수=" + a + "<br>");
+	for(i=0;i<10;i++)
+	{
+		if(score[i] > max)
+		{
+			max =score[i];
+		}
+	}
+	for(i=0;i<10;i++)
+	{
+		if(score[i] < mini)
+		{
+			mini =score[i];
+		}
+	}
+	document.write("평균=" + avg + "표준편차=" + avg2 + "최대값=" + max + "최소값=" + mini + "<br>");
+	</script>
+	</body>
+</html>
+
+
+<html>
+	<body>
+	<script>
+	var w=[], t=[];
+	var avg=0, max=0, mini=0;
+	for(i=0;i<5;i++)
+	{
+		w[i]=parseInt(prompt((i+1) + "번째 몸무게 입력","100"));
+		t[i]=parseInt(prompt((i+1) + "번째 키 입력","100"));
+		if (w[i] < 10 || w[i] > 800)
+		{
+			document.write("몸무게입력범위는 0-800 입니다.<br>");
+			w--
+			continue;
+		}
+		if (t[i] < 10 || t[i] > 300)
+		{
+			document.write("키입력범위는 0-300 입니다.<br>");
+			t--
+			continue;
+		}
+	

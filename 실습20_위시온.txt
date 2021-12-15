@@ -1,0 +1,93 @@
+<html>
+	<body>
+	<script>
+	var count1, count2;
+	for ( count1=1 ; count1 < 11 ; count1=count1+1 )
+	{
+		for ( count2=1 ; count2 < 21 ; count2=count2+1)
+		{
+			document.write("*");
+		}
+		document.write("<br>");
+	}
+	</script>
+	</body>
+</html>
+
+
+
+<html>
+	<body>
+	<script>
+	var dan, count;
+	for ( dan=2 ; dan <= 9 ; dan=dan+1 )
+	{
+		document.write("==" + dan + "단==<br>");
+		for ( count=1; count <= 9 ; count=count+1)
+		{
+			document.write(dan + "*" + count + "=" + dan*count + "<br>");
+		}
+		document.write("<br>");
+	}
+	</script>
+	</body>
+</html>
+
+
+
+<html>
+	<body>
+	<script>
+	var i, j
+		for ( i=1 ; i <= 5; i= i + 1)
+		{
+			for ( j =1; j <= 5; j= j + 1)
+			{
+				document.write( j + "" );
+			}
+		
+			document.write("<br>");
+		}
+	</script>
+	</body>
+</html>
+
+
+
+<html>
+	<body>
+	<script>
+	var i, j
+		for ( i=1; i <=5; i= i + 1)
+		{
+			for( j=1; j <=9; j= j+2)
+			{
+				document.write(j + "");
+			}
+			document.write("<br>");
+		}
+	</script>
+	</body>
+</html>
+
+
+
+<html>
+	<body>
+	<script>
+
+	var i, j, x, y;
+
+	x = prompt("몇 줄","?");
+	y = prompt("몇까지","?");
+	for (i=1; i<=x; i=i+1)
+	{
+		for (j=2; j <= y; j= j+2)
+		{
+			document.write(j + " ");
+		}
+		document.write("<br>");
+	}
+	</script>
+	</body>
+</html>

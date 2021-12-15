@@ -1,0 +1,95 @@
+<알고리즘>
+(1)입력데이터: 메뉴, 개수
+(2)출력데이터: 음료명, 단가, 개수
+(3)계산: 금액 = 단가 * 개수
+(4)조건: 종료조건 메뉴 == 0, 메뉴범위: 1-4, 개수범위: 1-10
+(5)처리순서
+반복
+ 메뉴선택
+ 종료조건이면 "종료합니다"출력
+ 아니면
+  메뉴선택범위가 아니면 "메뉴선택범위오류" 출력
+  아니면
+  1 선택 : 음료명="콜라", 단가 700
+  2 선택 : 음료명="쥬스", 단가 800
+  3 선택 : 음료명="사이다", 단가 500
+  4 선택 : 음료명="생수", 단가 1000
+  개수선택
+  개수 선택범위가 아니면 "개수선택범위오류" 출력
+  아니면
+	금액= 단가*개수
+	음료명, 단가, 금액 출력
+반복조건 (메뉴 != 0)
+
+
+
+
+
+
+
+<html>
+	<body>
+	<script>
+
+
+	var choice, choice2, name, price, total;
+	do
+	{
+	
+		document.write("1. 콜라(700원)<br>");
+		document.write("2. 쥬스(800원)<br>");
+		document.write("3. 사이다(500원)<br>");
+		document.write("4. 생수(1000원)<br>");
+		document.write("0. 종료<br>");
+		choice = prompt("원하는 메뉴를 선택하세요","?");
+		if(choice == 0)
+		{
+		document.write("종료합니다<br>");
+		}
+		else if(choice >= 5)
+		{
+		document.write("메뉴선택범위오류<br>");
+		}
+		else 
+		{
+			if(choice == 1)
+			{
+			name= "콜라";
+			price= 700;
+			}
+			else if(choice == 2)
+			{
+			name= "쥬스";
+			price= 800;
+			}
+			else if(choice == 3)
+			{
+			name= "사이다";
+			price= 500;
+			}
+			else if(choice == 4)
+			{
+			name= "생수";
+			price= 1000;
+			}
+			choice2 = prompt("개수를 선택하세요","?");
+			if(choice2 >= 11)
+			{
+			document.write("개수선택범위오류<br>");
+			}
+			else 
+			{
+			total= price*choice2
+			document.write("금액=" + total + "<br>");
+			document.write("음료명:" + name + "단가:" + price + "금액:" + total + "<br>");
+			}
+		}
+		
+	} while (choice != 0);
+
+
+
+	</script>
+	</body>
+</html>	
+			

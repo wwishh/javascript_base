@@ -1,0 +1,109 @@
+<html>
+<head><title> ÇÐÁ¡±¸ÇÏ±â </title></head>
+<body>
+<script type = "text/javascript">
+	document.write("<h2>ÇÐÁ¡±¸ÇÏ±â</h2>");
+	document.write("-------------------------------------------<br>");
+
+
+	var score = 0; grade = null;
+	score = prompt("Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä","?");
+
+
+	if(score<=100 && score>=0)
+	{	if(score >= 90) {grade = "A";}
+		else if(score >= 80) {grade = "B";}
+		else if(score >= 70) {grade = "C";}
+		else	{grade = "D";}
+	}
+
+
+	document.write(score + "ÀÇ ÇÐÁ¡Àº" + grade + "ÀÔ´Ï´Ù.<br>");
+	document.write("-------------------------------------<br>");
+</script>
+</body>
+</html>
+
+
+
+
+
+<html>
+<body>
+<script type = "text/javascript">
+
+
+	var inputChar = null;
+	inputChar = prompt("Å°º¸µåÀÇ ¹®ÀÚ ÇÏ³ª¸¦ ÀÔ·ÂÇÏ¼¼¿ä","?");
+
+
+	if(("A" <= inputChar) && (inputChar <= "Z"))
+	{document.write(inputChar + "´Â ¿µ¹®ÀÚ ´ë¹®ÀÚÀÔ´Ï´Ù<br>");}
+	else if(("a" <= inputChar) && (inputChar <= "z"))
+	{document.write(inputChar + "´Â ¿µ¹®ÀÚ ¼Ò¹®ÀÚÀÔ´Ï´Ù<br>");}
+	else if(("0" <= inputChar) && (inputChar <= "9"))
+	{document.write(inputChar + "´Â ¼ýÀÚÀÔ´Ï´Ù<br>");}
+	else if(("°¡" <= inputChar) && (inputChar <= "ÆR"))
+	{document.write(inputChar + "´Â ÇÑ±ÛÀÔ´Ï´Ù<br>");}
+	else
+	{document.write(inputChar + "´Â ±âÅ¸ ¹®ÀÚÀÔ´Ï´Ù<br>");}
+
+
+</script>
+</body>
+</html>
+
+
+
+
+<html>
+<body>
+<script>
+
+	var value;
+	value = prompt("ÇÏ³ªÀÇ ¼ýÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä","?");
+
+
+	if(value > 0)
+	{document.write(value + "Àº 0º¸´Ù Å®´Ï´Ù<br>");}
+	else if(value == 0)
+	{document.write(value + "Àº 0ÀÔ´Ï´Ù<br>");}
+	else
+	{document.write(value + "Àº 0º¸´Ù ÀÛ½À´Ï´Ù<br>");}
+
+
+</script>
+</body>
+</html>
+
+
+
+<html>
+<body>
+<script>
+
+
+	var a;
+	a = prompt("¿ùÀ» ÀÔ·ÂÇÏ¼¼¿ä","?");
+
+
+	if(a >= 3 && a <= 5)
+	{document.write(a + ":º½<br>");}
+	else if(a >= 6 && a <= 8)
+	{document.write(a + ":¿©¸§<br>");}
+	else if(a >= 9 && a <= 11)
+	{document.write(a + ":°¡À»<br>");}
+	else if(a == 12 || a<= 2)
+	{document.write(a + "°Ü¿ï<br>");}
+	else
+	{document.write(a + "¹üÀ§¿À·ù<br>");}
+
+</script>
+</bdoy>
+</html>
+
+
+
+
+
+

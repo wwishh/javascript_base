@@ -1,0 +1,17 @@
+<HTML>
+    <body>
+<script>
+var name, id, pw, age, gender;
+name = "위시온";
+id = "20175319";
+pw = "1234567";
+age = 20;
+gender = "false";
+document.write("이름은 " + name + "<br>");
+document.write("아이디는" + id + "<br>");
+document.write("비밀번호는" + pw + "<br>");
+document.write("나이는" + age + "<br>");
+document.write("성별은" + gender + "<br>");
+           </script>
+       </body>
+</HTML>

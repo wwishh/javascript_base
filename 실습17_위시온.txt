@@ -1,0 +1,132 @@
+<html>
+	<body>
+	<script>
+	var choice;
+	do
+	{
+		document.write("-------------------------<br>");
+		document.write("프로그래밍 논리 설명<br>");
+		document.write("1. 순서논리<br>");
+		document.write("2. 선택논리<br>");
+		document.write("3. 반복논리<br>");
+		document.write("종료 : 0<br>");
+		document.write("-------------------------<br>");
+		document.write("입력창에서 원하는 번호를 선택하세요(종료:0)<br>");
+		choice = prompt("메뉴를 선택하세요(종료:0)","0")
+		if (choice == 1)
+		{
+		document.write("******* 순서 논리 *******<br>");
+		document.write("순서논리는 프로그램이 순차적으로 실행됨을 의미한다<br>");
+		document.write("일반적으로 프로그램은 위에서 아래로 순차적으로 실행된다<br>");
+		} 
+		else if (choice == 2)
+		{
+		document.write("******* 선택 논리 *******<br>");
+		document.write("선택 논리는 조건에 따라 프로그램의 실행부분이 달라진다<br>");
+		document.write("선택 논리 조건의 결과는 항상 참 또는 거짓을 가진다<br>");
+		} 
+		else if (choice == 3)
+		{
+		document.write("******* 반복 논리 *******<br>");
+		document.write("반복 논리는 조건에 따라 일정 부분을 반복 수행한다<br>");
+		document.write("반복 논리의 조건이 참일 동안 반복부분이 반복 실행된다<br>");
+		}
+	} while (choice != 0);
+	</script>
+	</body>
+</html>
+
+
+<html>
+	<body>
+	<script>
+	var choice;
+	do
+	{
+		document.write("-------------------------<br>");
+		document.write("커피종류 선택<br>");
+		document.write("1. 아메리카노<br>");
+		document.write("2. 에소프레소<br>");
+		document.write("3. 카페모카<br>");
+		document.write("4. 카페라떼<br>");
+		document.write("0. 종료<br>");
+		document.write("-------------------------<br>");
+		document.write("입력창에서 원하는 번호를 선택하세요(종료:0)<br>");
+		choice = prompt("메뉴를 선택하세요","?")
+		if (choice == 1)
+		{
+		document.write("아메리카노 선택<br>");
+		} 
+		else if (choice == 2)
+		{
+		document.write("에소프레소 선택<br>");
+		} 
+		else if (choice == 3)
+		{
+		document.write("카페모카 선택<br>");
+		}
+		else if (choice == 4)
+		{
+		document.write("카페라떼 선택<br>");
+		}
+		else if (choice >= 5)
+		{
+		document.write("없는 메뉴입니다.<br>");
+		}
+		else if (choice == 0)
+		{
+		document.write("종료합니다.<br>");
+		}
+	} while (choice != 0);
+	</script>
+	</body>
+</html>
+
+
+
+<html>
+	<body>
+	<script>
+	var choice;
+	do
+	{
+		document.write("-------------------------<br>");
+		document.write("나이 연령대 확인<br>");
+		document.write("-------------------------<br>");
+		document.write("입력창에서 나이를 입력하세요<br>");
+		choice = prompt("나이입력","?")
+		if (choice >= 10 && choice <= 19)
+		{
+		document.write(choice + "는 10대입니다.<br>");
+		} 
+		else if (choice >= 20 && choice <= 29)
+		{
+		document.write(choice + "는 20대 입니다.<br>");
+		}
+		else if (choice >= 30 && choice <= 39)
+		{
+		document.write(choice + "는 30대 입니다.<br>");
+		}
+		else if (choice >= 40 && choice <= 49)
+		{
+		document.write(choice + "는 40대 입니다.<br>");
+		}
+		else if (choice == 999)
+		{
+		document.write("종료합니다<br>");
+		}
+		else if (choice >= 150 || choice <= 0)
+		{
+		document.write("입력범위오류<br>");
+		}
+		else
+		{
+		document.write(choice + "는 기타 입니다<br>");
+		}
+	} while (choice != 999);
+	</script>
+	</body>
+</html>
+
+
+

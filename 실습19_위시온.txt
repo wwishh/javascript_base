@@ -1,0 +1,208 @@
+<html>
+	<body>
+	<script>
+	var count;
+	for (count=1; count <= 10; count=count+1)
+	{
+		document.write("*************<br>");
+	}
+	</script>
+	</body>
+</html>
+
+
+
+
+<html>
+	<body>
+	<script>
+	var count, hap=0;
+	for ( count=100; count >= 1; count=count-2 )
+	{
+		hap = hap + count;
+	}
+	document.write("100부터 1까지 짝수의 합은 : " + hap);
+	</script>
+	</bdoy>
+</html>
+
+
+
+
+<html>
+	<body>
+	<script>
+	var input=0, total=0, count=0, i;
+	for ( i=1; i <= 10; i=i+1 )
+	{
+		input = parseInt(prompt(i + "번째 숫자 입력"));
+		document.write( i + "번째 입력 데이터 :" + input + "<br>");
+		if (0 <= input)
+		{
+			total = total + input;
+			count = count + 1;
+		}
+	}
+	document.write("평균 :" + total/count + "<br>");
+	document.write("0보다 큰수는" + count + "개 입니다<br>");
+	</script>
+	</bdoy>
+</html>
+
+
+
+
+<html>
+	<body>
+	<script>
+	var dan, count;
+	dan = prompt("단을 입력하세요");
+	document.write("==" + dan + "단==<br>");
+	for ( count=1; count <= 9; count=count+1)
+	{
+		document.write(dan + " * " + count + " = " + dan*count + "<br>");
+	}
+	</script>
+	</body>
+</html>
+
+
+
+
+<html>
+	<body>
+	<script>
+	var num1, num2, temp, sum=0;
+	num1 = parseInt(prompt("숫자 입력"));
+	num2 = parseInt(prompt("숫자 입력"));
+	document.write("두 값은" + num1 + "과 " + num2 + "입니다<br>");
+	if ( num1 > num2)
+	{
+		temp = num1;
+		num1 = num2;
+		num2 = temp;
+	}
+	for ( ; num1 <= num2 ; num1=num1+1)
+	{
+		if (num1 % 2 == 0)
+		{
+			sum = sum + num1
+		}
+	}
+	document.write("두 값 사이의 짝수의 합은" + sum + "입니다<br>");
+	</script>
+	</body>
+</html>
+
+
+
+
+<html>
+	<body>
+	<script>
+	var pnumber, flag=0;
+	pnumber = prompt("숫자입력");
+	for ( i =2 ; i <= pnumber-1 ; i = i+1)
+	{
+		if (pnumber % i == 0)
+		{
+			flag =1;
+		}
+	}
+	if ( flag == 0)
+	{
+		document.write("입력된수 " + pnumber + "는 소수입니다<br>");
+	}
+	else
+	{
+		document.write("입력된 수" + pnumber + "는 소수가 아닙니다<br>");
+	}
+	</script>
+	</body>
+</html>
+
+
+
+
+<html>
+	<body>
+	<script>
+	var input=0, count=0, sum=0;
+	for ( ; input != 999 ;)
+	{
+		input = parseInt(prompt("숫자 입력","마지막은 999"));
+		if (input != 999)
+		{
+			sum = sum + input;
+			count = count + 1;
+			document.write("입력" + count + " : " + input + "<br>");
+		}
+	}
+	document.write("합계 :" + sum + "<br>");
+	document.write("평균 :" + sum/count + "<br>");
+	</script>
+	</body>
+</html>
+
+
+
+
+<html>
+	<body>
+	<script>
+	var input=0, sum=0, count=0, i;
+	for ( i=1 ; i <= 5 ; i = i+1 )
+	{
+		input = parseInt(prompt( i + "번째 점수 입력"));
+		document.write(i + "번째 점수:" + input + "<br>");
+		sum= sum +  input;
+		count= count+1;
+	}
+	document.write("총점:" + sum + "<br>");
+	document.write("평균:" + sum/count + "<br>");
+	</script>
+	</body>
+</html>
+
+
+
+
+<html>
+	<body>
+	<script>
+
+	var sum5=0, sum7=0;
+
+	for( i=1;  i <= 100; i=i+1)
+	{
+		if(i % 5 == 0)
+		{
+			 sum5 = sum5+i;
+		}
+		if(i%7 == 0)
+		{
+			sum7 = sum7+i;
+		}
+	}
+
+	document.write("5의배수의합은" + sum5 + "입니다<br>");
+	document.write("7의배수의합은" + sum7 + "입니다<br>");
+	</script>
+	</body>
+</html>
+
+
+
+<html>
+	<body>
+	<script>
+	var a=0, b=1
+	a= prompt("숫자 입력","?");
+	for(i =a ; i >0; i--)
+	{
+		b = b * i;
+	}
+	document.write(a + " !은 " + b + "<br>");
+	</script>
+	</body>
+</html> 

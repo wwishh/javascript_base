@@ -1,0 +1,221 @@
+<html>
+	<body>
+	<script>
+
+
+
+	var count=1;
+	while (count <= 10)
+	{
+		document.write("**********<br>");
+		count = count + 1;
+	}
+
+
+
+	</script>
+	</body>
+</html>
+
+
+<html>
+	<body>
+	<script>
+
+
+
+	var count=1;
+	while (count <= 20)
+	{
+		document.write("---------<br>");
+		count = count + 1;
+	}
+
+
+
+	</script>
+	</body>
+</html>
+
+
+<html>
+	<body>
+	<script>
+
+
+	var hap=0, count=1;
+	while (count <= 10)
+	{
+		hap = hap + count;
+		count = count + 1;
+	}
+	document.write("1부터 10까지의 합은 : " + hap);
+
+
+
+	</script>
+	</body>
+</html>
+
+
+<html>
+	<body>
+	<script>
+
+
+
+	var hap=0, count=1;
+	while (count <= 100)
+	{
+		hap = hap + count;
+		count = count + 2;
+	}
+	document.write("1부터 100까지 홀수의 합은 : " + hap);
+
+
+	</script>
+	</body>
+</html>
+
+
+<html>
+	<body>
+	<script>
+
+
+	var score=0, total=0, count=1;
+	while (count <= 5)
+	{
+		score = parseInt(prompt(count + "번째 과목 입력"));
+		total = total + score;
+		document.write(count + "번째 성적 : " + score + "<br>");
+		count = count + 1;
+	}
+	document.write("총점 :" + total + "<br>");
+	document.write("평균 :" + total/5 + "<br>");
+
+
+	</script>
+	</body>
+</html>
+
+
+<html>
+	<body>
+	<script>
+
+
+	var count=10;
+	while (count >= 1)
+	{
+		document.write(count + "<br>");
+		count = count - 1;
+	}
+
+
+	</script>
+	</body>
+</html>
+
+
+
+
+<html>
+	<body>
+	<script>
+
+
+	var count=5;
+	while(count <= 50)
+	{
+		document.write("1에서 50사이의 5의 배수는 : " + count + "<br>");
+		count= count+5;
+	}
+
+
+	</script>
+	</body>
+</html>
+
+
+
+
+<html>
+	<body>
+	<script>
+
+
+	var s=1, a;
+	a= prompt("수입력","?");
+
+
+	while(s <= a)
+	{
+		document.write(s + "<br>");
+		s = s+1;
+	}
+
+
+	</script>
+	</body>
+</html>
+
+
+<html>
+	<body>
+	<script>
+
+
+	var n1, n2, small, big;
+	n1 = prompt("수입력","?");
+	n2 = prompt("수입력","?");
+
+
+	if(n1 <= n2)
+	{
+		n1 = small;
+		n2 = big;
+	}
+	else
+	{
+		n1 = big;
+		n2 = small;
+	}
+	while(small <= big)
+	{
+		document.write(small + "<br>");
+		small = small + 1
+	}
+
+
+	</script>
+	</body>
+</html>
+
+
+<html>
+	<body>
+	<script>
+
+
+	var a=0, b=0, count=1
+
+	while(count <= 100)
+	{
+		if(count % 2 == 0)
+		{
+			a += count;
+		}
+		else
+		{
+			b += count;
+		}
+		count++;
+	}
+
+	document.write("짝수합=" + a +, "홀수합=" + b);
+
+
+	</script>
+	</body>
+</html>

@@ -1,0 +1,81 @@
+<html>
+	<body>
+	<script>
+	var num=[[],[],[],[]];
+	var sum=0, c=1;
+	for(i=0;i<4;i++)
+	{
+		for(j=0;j<4;j++)
+		{
+			num[i][j]=j+1;
+		}
+	}
+	for(i=0;i<4;i++)
+	{
+		for(j=0;j<4;j++)
+		{
+			num[i][j]=c++;
+			document.write(num[i][j]+ " ");
+		}
+		document.write("<br>");
+	}
+	for(i=0;i<4;i++)
+	{
+		for(j=0;j<4;j++)
+		{
+			sum+=num[i][j];
+		}
+	}
+	document.write("sum= " + sum + "<br>");
+	
+	</script>
+	</body>
+</html>
+
+
+
+<html>
+	<body>
+	<script>
+	var a=[[],[],[]];
+	var b=[[],[],[]];
+	var c=[[],[],[]];
+	var d=[[],[],[]];
+	var e=1,f=10;
+	document.write("a=<br>");
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			a[i][j]=e++;
+			document.write(a[i][j]+ " ");
+			
+		}
+		document.write("<br>");
+	}
+	document.write("b=<br>");
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			b[i][j]=f++;
+			document.write(b[i][j]+ " ");
+		}
+		document.write("<br>");
+	}
+	
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			c=a[i][j]+ b[i][j];
+			d=a[i][j]- b[i][j];
+			
+		}
+	}
+	document.write("c=<br>" + c + "<br>");
+	document.write("d=<br>" + d );
+	</script>
+	</body>
+</html>
+

@@ -1,0 +1,80 @@
+<html>
+<head><title>과제3</title></head>
+<body>
+<script type = "text/javascript">
+	document.write("<h2>과제3</h2>");
+	document.write("------------------------------<br>");
+
+	x = 5
+	y1 = 2*x*x*x + 3*x*x - 4/10
+	y2 = 2/3*x*x - 7*x + 6/7
+
+
+	document.write("(1) y=" + y1 + "<br>");
+	document.write("(2) y=" + y2 + "<br>");
+	document.write("-------------------------------<br>");
+
+
+</script>
+</body>
+</html>
+
+
+
+
+<html>
+<body>
+<script type = "text/javascript">
+
+
+	x = 100
+	y = 80
+	z = 60
+	s = (x+y+z)/3
+	r = s >= 70 ? "합격" : "불합격"
+
+	document.write("결과=" + r + "<br>");
+	document.write("--------------------------------<br>);
+
+
+</script>
+</body>
+</html>
+
+
+
+
+<html>
+<body>
+<script type = "text/javascript">
+
+
+	x = 10
+	r = x % 2 == 1 ? x + 1 : x - 1
+
+	document.write("결과=" + r + "<br>");
+	document.write("--------------------------------<br>");
+
+
+</script>
+</body>
+</html>
+
+
+
+
+<html>
+<body>
+<script type = "text/javascript">
+
+
+	a = 20
+	r = a >= 20 && a <= 60 ? "회원가입" : "불가능"
+
+	document.write("결과=" + r + "<br>");
+	document.write("--------------------------------<br>");
+
+
+</script>
+</body>
+</html>

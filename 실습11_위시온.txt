@@ -1,0 +1,91 @@
+<html>
+<body>
+<script>
+
+	var a,b,c;
+	a = parseInt(prompt("국어 점수 입력", "100"));
+	b = parseInt(prompt("영어 점수 입력", "100"));
+	c = parseInt(prompt("수학 점수 입력", "100"));
+	t = a+b+c
+	w = t/3
+	p = (w >= 75) ? "합격" : "불합격";
+
+	document.write("총점은" + t + "이고");
+	document.write("평균은" + w + "이다");
+	document.write("합격여부" + p + "<br>");
+
+</script>
+</body>
+</html>
+
+
+
+
+<html>
+<body>
+<script>
+
+	var a;
+	a = parseInt(prompt("나이 입력", "70"));
+	k = (a >= 65) ? "경로우대" : "일반"
+
+	document.write("나이는" + a + "이고");
+	document.write("결과는" + k + "입니다");
+
+</script>
+</body>
+</html>
+
+
+
+
+<html>
+<body>
+<script>
+
+	var a
+	a = parseFloat(prompt("숫자 입력", "12"));
+	b = (a%2==0) ? "짝수" : "홀수";
+	c = (a > 10) ? a+1 : a-1;
+
+
+	document.write("숫자결과" + c + "입니다");
+
+</script>
+</body>
+</html>
+
+
+
+<html>
+<body>
+<script>
+
+	var a,b;
+	a = parseInt(prompt("아이디 입력", "12345"));
+	b = parseInt(prompt("비밀번호 입력", "1234"));
+	c = (b = 1234) ? "login 성공" : "login 실패";
+
+	document.write("로그인 결과" + c + "입니다");
+
+</script>
+</body>
+</html>
+
+
+<html>
+<body>
+<script>
+
+	var a
+	a = parseInt(prompt("급여 입력", "3000000"));
+	
+	t3 = (a >= 3000000) ? 3 : 2;
+	t1 = a*t3/100
+	q = a-t1
+
+	document.write("당신의 수령액은" + q + "입니다");
+
+</script>
+</body>
+</html> 

@@ -1,0 +1,39 @@
+<html>
+     <body>
+           <script>
+var A= 5 ;
+var B= 2*(3.141592)*A ;
+var C= (3.141592)*A*A ;
+
+document.write("반지름이 5인 원의 둘레는" + B + "이고 반지름이 5인 원의 넓이는" + C + "이다");
+
+     </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+<html>
+     <body>
+      <script>
+         var cost= 5000000
+         var USD= cost*3/5
+         var GBP= cost*2/5
+         var $=1114.00
+         var P= 1382.67
+         var USD2= USD/$
+         var GBP2= GBP/P
+
+            document.write("총여행경비" + cost + "원<br>");
+            document.write("미국경비" + USD + "원, ---" + USD2 + "$<br>");
+            document.write("영국경비" + GBP + "원, ---" + GBP2 + "P<br>");
+
+
+        </script>
+     </body>
+  </html>
+

@@ -1,0 +1,104 @@
+<html>
+	<body>
+	<script>
+
+var s=[];    
+for (i=0; i < 30; i++)
+{
+   s[i] = (i+1) * 5     
+  
+}
+for (i = 0; i < 30; i++){  
+ document.write("s[" + i + "]=" + s[i] + "<br>");
+} 
+	</script>
+	</body>
+</html>
+
+<html>
+	<body>
+	<script>
+var s=[];    
+for (i=0; i < 10; i++)
+{
+   s[i] = i * 2;        
+   
+}
+for (i = 0; i < 10; i++){  
+ document.write("s[" + i + "]=" + s[i] + "<br>");
+} 
+	</script>
+	</body>
+</html>
+
+<html>
+	<body>
+	<script>
+var o = [];
+for(i = 0; i < 10; i++)
+{
+ o[i] = i * 2 + 1   
+ document.write("o[" + i + "]=" + o[i] + "<br>");
+}
+	</script>
+	</body>
+</html>
+
+
+<html>
+	<body>
+	<script>
+var o = [];   
+var sum = 0;  
+for(i = 0; i < 10; i++)
+{
+ 
+ o[i] = i * 2 + 1   
+ document.write("o[" + i + "]=" + o[i] + "<br>");
+ sum += o[i]; 
+}
+document.write("sum=" + sum + "<br>");
+document.write("avg=" + (sum/10)  + "<br>");
+	</script>
+	</body>
+</html>
+
+
+<html>
+	<body>
+	<script>
+	var a=[];
+	var i, sum=0;
+	for(i=0;i<6;i++)
+	{
+		a[i]=parseInt(prompt((i+1) + "¹øÂ° ¸ö¹«°Ô ÀÔ·Â"));
+	}
+	i=1;
+	for(i=0;i<6;i++)
+	{
+		sum= sum + a[i];
+	}
+	document.write("ÃÑ¸ö¹«°Ô :" + sum + "<br>");
+	document.write("Æò±Õ :" + sum/5 + "<br>");
+	</script>
+	</bdoy>
+</html>
+
+
+<html>
+	<body>
+	<script>
+	var name= ["a","b","c","d","e"];
+	var score= [85,49,59,48,85];
+	var sum=0, i, avg;
+	for (i=0; i<=4; i++)
+	{
+		document.write(name[i] + ":" + score[i] + "<br>");
+		sum= sum + score[i];
+	}
+	avg = sum/5;
+	document.write("ÀüÃ¼ÇÐ»ý ÃÑÁ¡: " + sum + "<br>");
+	document.write("ÀüÃ¼ÇÐ»ý Æò±Õ: " + avg);
+	</script>
+	</body>
+</html>

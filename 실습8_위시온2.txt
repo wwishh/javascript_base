@@ -1,0 +1,106 @@
+<html>
+	<head>
+	<script>
+		var name = "홍길동" ;
+		var a = 3000000
+		var b = 300000
+		var c = a+b
+		var d = c*(20/100)
+		var e = c-d
+
+
+	document.write("성명:" + name + "<br>");
+	document.write("본봉 (원):" + a + "<br>");
+	document.write("수당 (원):" + b + "<br>");
+	document.write("총액 (원):" + c + "<br>");
+	document.write("세금 (원):" + d + "<br>");
+	document.write("수령액 (원):" + e + "<br>");
+
+
+	</script>
+	</head>
+</html>
+
+
+<html>
+	<head>
+	<script>
+
+
+		var a = 3
+		var b = 120
+		var d = a*b
+		var c = d/60
+		
+
+
+
+		document.write("1페이지 읽는 시간 (분):" + a + "<br>");
+		document.write("총페이지수:" + b + "<br>");
+		document.write("완독시간 :" + c + "(" + d + "분)<br>");
+
+
+
+
+	</script>
+	</head>
+</html>
+
+
+<html>
+	<head>
+	<script>
+
+
+
+
+
+		var a = 1500
+		var b = 2
+		var c = 4
+		var d = 6200
+		var e = (d-a*b)/c
+
+
+
+
+		document.write("사과단가:" + a + "<br>");
+		document.write("사과개수:" + b + "<br>");
+		document.write("배개수:" + c + "<br>");
+		document.write("과일가격:" + d + "<br>");
+		document.write("배가격:" + e + "<br>");
+
+
+
+	</script>
+	</head>
+</html>
+
+
+
+
+<html>
+	<head>
+	<script>
+
+
+
+		var a = "위시온"
+		var b = 171
+		var c = 55
+		var d = c-(b-110)
+
+
+
+
+		document.write("성명:" + a + "<br>");
+		document.write("키:" + b + "cm<br>");
+		document.write("몸무게:" + c + "kg<br>");
+		document.write("비만도:" + d + "<br>");
+
+
+
+
+	</script>
+	</head>
+</html>
